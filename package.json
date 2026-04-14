@@ -1,5 +1,5 @@
 {
-  "name": "org.eclipse.daanse.feel.langium",
+  "name": "@eclipse-daanse/org.eclipse.daanse.feel.langium",
   "version": "1.0.0",
   "description": "Langium-based FEEL parser with LSP support for DMN",
   "type": "module",
