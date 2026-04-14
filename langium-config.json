@@ -1,0 +1,11 @@
+{
+  "projectName": "FeelLangium",
+  "languages": [
+    {
+      "id": "feel",
+      "grammar": "src/grammar/feel.langium",
+      "fileExtensions": [".feel"]
+    }
+  ],
+  "out": "src/generated"
+}
