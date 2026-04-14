@@ -28,9 +28,7 @@ jobs:
         run: npm run build
 
       - name: Publish
-        run: npm publish --tag next
+        run: npm publish --tag next --access public
         env:
           NPM_CONFIG_PROVENANCE: 'true'
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
           name: Publish next
