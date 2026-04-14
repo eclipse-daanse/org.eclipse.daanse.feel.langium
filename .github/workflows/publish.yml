@@ -19,7 +19,6 @@ jobs:
         with:
           node-version: 24
           cache: npm
-          registry-url: https://registry.npmjs.org
 
       - name: Set version from tag
         run: npm version "${GITHUB_REF_NAME}" --no-git-tag-version
