@@ -38,5 +38,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclipse-daanse/org.eclipse.daanse.feel.langium"
+  },
   "license": "EPL-2.0"
 }
